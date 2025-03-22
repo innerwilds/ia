@@ -121,14 +121,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
-  dart_things:
-    dependency: transitive
-    description:
-      name: dart_things
-      sha256: "3907a99d2862caed8230a151f47cdef2c49a120f02548b1aeb12d8696fc8daff"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.5.2"
   fake_async:
     dependency: transitive
     description:
