@@ -1,0 +1,29 @@
+name: installed_apps
+description: A way to retrieve apps installed on a device
+version: 0.0.1
+
+environment:
+  sdk: ^3.7.0
+  flutter: '>=3.29.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pigeon: ^25.1.0
+  freezed_annotation: ^3.0.0
+  dart_things: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: ^3.0.4
+  build_runner: ^2.4.15
+  very_good_analysis: ^7.0.0
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: ru.innerwilds.flutter.plugins.installed_apps
+        pluginClass: InstalledAppsPlugin
